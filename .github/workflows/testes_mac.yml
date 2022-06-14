@@ -1,4 +1,4 @@
-name: Testes
+name: Testes Mac
 on: [push]
 jobs:
   Testes-classe-calculator-mac:

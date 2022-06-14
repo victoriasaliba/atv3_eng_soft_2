@@ -1,4 +1,4 @@
-name: Testes
+name: Testes Windows
 on: [push]
 jobs:
   Testes-classe-calculator-windows:
