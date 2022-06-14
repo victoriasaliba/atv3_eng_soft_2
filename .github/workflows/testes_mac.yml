@@ -1,7 +1,7 @@
 name: Testes
 on: [push]
 jobs:
-  Testes-classe-calculator:
+  Testes-classe-calculator-mac:
     runs-on: macos-latest
     steps:
       - run: echo "Rodando destes da classe Calculator"

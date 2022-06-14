@@ -1,7 +1,7 @@
 name: Testes
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Testes-classe-calculator-ubuntu:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Rodando destes da classe Calculator"
