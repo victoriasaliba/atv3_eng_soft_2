@@ -1,0 +1,12 @@
+name: Testes
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: windows-latest
+    steps:
+      - run: echo "Rodando destes da classe Calculator"
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: 'Testes Calculator'
+        uses: actions/checkout@v3
+      - run: python3 -m unittest test_calculator.py
